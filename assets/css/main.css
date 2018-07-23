@@ -7,8 +7,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+html, body, span, applet, object,
+iframe, h1, h2, h3, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -16,11 +16,9 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+footer, header, hgroup, menu, nav, output, ruby, section,
+summary, time, mark, audio, video {
 	margin: 0;
-	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
@@ -31,6 +29,20 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+}
+
+#alltext {
+	margin: 20;
+	padding: 15;
+}
+
+body.indentation {
+	margin: 10 !important;
+}
+
+.tab {
+	position: absolute;
+	left: 200;
 }
 
 ol, ul {
@@ -572,6 +584,19 @@ input, select, textarea {
 			font-size: 1.5em;
 		}
 
+	}
+
+	h3 {
+		font-size: 1.75em;
+		line-height: 1em;
+		letter-spacing: 0em;
+		padding-left: 18px;
+		padding-right: 18px;
+	}
+
+	h4 {
+		padding-left: 0px;
+		padding-right: 18px;
 	}
 
 	strong, b {
@@ -1177,6 +1202,11 @@ input, select, textarea {
 
 	footer {
 		margin-top: 2em;
+	}
+
+	#divider {
+		margin-bottom: 30%;
+		margin-top: 70%;
 	}
 
 /* Table */
@@ -1890,6 +1920,8 @@ input, select, textarea {
 
 		}
 
+
+
 	body {
 		padding-top: 3em;
 	}
@@ -2229,12 +2261,26 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background: url("images/overlay.png"), url("../../images/SLF_FB.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
 	}
+
+/* Banner */
+
+	#banner {
+		position: relative;
+		text-align: right;
+		color: white;
+	}
+		#banner .title {
+			position: absolute;
+			right: 50%;
+			bottom: 10px;
+			transform: translate(-50%, -50%);
+		}
 
 /* One */
 

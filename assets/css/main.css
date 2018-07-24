@@ -45,6 +45,21 @@ body.indentation {
 	left: 200;
 }
 
+.columna {
+	float: left;
+	position: relative;
+}
+.lefta{
+	width: 20%;
+}
+.righta{
+	width: 80%;
+}
+.keeptogether{
+	display: inline-block;
+	width: 100%;
+}
+
 ol, ul {
 	list-style: none;
 }

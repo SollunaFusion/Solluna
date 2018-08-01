@@ -31,10 +31,10 @@ body {
 	line-height: 1;
 }
 
-#alltext {
+/*#alltext {
 	margin: 20;
 	padding: 15;
-}
+}*/
 
 body.indentation {
 	margin: 10 !important;
@@ -612,6 +612,7 @@ input, select, textarea {
 	h4 {
 		padding-left: 0px;
 		padding-right: 18px;
+
 	}
 
 	strong, b {
